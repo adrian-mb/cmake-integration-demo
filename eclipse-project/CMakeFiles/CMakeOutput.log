@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp
+Change Dir: /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3616c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3616c.dir/build.make CMakeFiles/cmTC_3616c.dir/build
-make[1]: Entering directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3616c.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_3616c.dir/testCXXCompiler.cxx.o -c /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_3616c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3616c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_3616c.dir/testCXXCompiler.cxx.o  -o cmTC_3616c -rdynamic 
-make[1]: Leaving directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d59e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d59e2.dir/build.make CMakeFiles/cmTC_d59e2.dir/build
+make[1]: Entering directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d59e2.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_d59e2.dir/testCXXCompiler.cxx.o -c /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d59e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d59e2.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d59e2.dir/testCXXCompiler.cxx.o  -o cmTC_d59e2 -rdynamic 
+make[1]: Leaving directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp
+Change Dir: /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4e92e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4e92e.dir/build.make CMakeFiles/cmTC_4e92e.dir/build
-make[1]: Entering directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_4e92e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e92e.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4e92e -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_0373a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0373a.dir/build.make CMakeFiles/cmTC_0373a.dir/build
+make[1]: Entering directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_0373a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0373a.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0373a -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -46,23 +46,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e92e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwV5pGn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4e92e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0373a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQxWq0G.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0373a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4e92e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4e92e.dir/build.make CMakeFiles/cmTC_4e92e.dir/build]
-  ignore line: [make[1]: Entering directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_4e92e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e92e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4e92e -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0373a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0373a.dir/build.make CMakeFiles/cmTC_0373a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_0373a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0373a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0373a -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -72,13 +72,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e92e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwV5pGn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4e92e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0373a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQxWq0G.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0373a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccwV5pGn.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQxWq0G.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -96,7 +96,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4e92e] ==> ignore
+    arg [cmTC_0373a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -108,7 +108,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_4e92e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_0373a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -138,17 +138,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp
+Change Dir: /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8b8c9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8b8c9.dir/build.make CMakeFiles/cmTC_8b8c9.dir/build
-make[1]: Entering directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8b8c9.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_8b8c9.dir/feature_tests.cxx.o -c /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8b8c9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b8c9.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_8b8c9.dir/feature_tests.cxx.o  -o cmTC_8b8c9 -rdynamic 
-make[1]: Leaving directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_58d53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58d53.dir/build.make CMakeFiles/cmTC_58d53.dir/build
+make[1]: Entering directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58d53.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_58d53.dir/feature_tests.cxx.o -c /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_58d53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58d53.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_58d53.dir/feature_tests.cxx.o  -o cmTC_58d53 -rdynamic 
+make[1]: Leaving directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -211,17 +211,17 @@ make[1]: Leaving directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFi
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp
+Change Dir: /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ab85/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2ab85.dir/build.make CMakeFiles/cmTC_2ab85.dir/build
-make[1]: Entering directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2ab85.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_2ab85.dir/feature_tests.cxx.o -c /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2ab85
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ab85.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_2ab85.dir/feature_tests.cxx.o  -o cmTC_2ab85 -rdynamic 
-make[1]: Leaving directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_19b77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19b77.dir/build.make CMakeFiles/cmTC_19b77.dir/build
+make[1]: Entering directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19b77.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_19b77.dir/feature_tests.cxx.o -c /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_19b77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19b77.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_19b77.dir/feature_tests.cxx.o  -o cmTC_19b77 -rdynamic 
+make[1]: Leaving directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -284,17 +284,17 @@ make[1]: Leaving directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFi
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp
+Change Dir: /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_17deb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_17deb.dir/build.make CMakeFiles/cmTC_17deb.dir/build
-make[1]: Entering directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_17deb.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_17deb.dir/feature_tests.cxx.o -c /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_17deb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17deb.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_17deb.dir/feature_tests.cxx.o  -o cmTC_17deb -rdynamic 
-make[1]: Leaving directory '/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c6ebb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6ebb.dir/build.make CMakeFiles/cmTC_c6ebb.dir/build
+make[1]: Entering directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6ebb.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_c6ebb.dir/feature_tests.cxx.o -c /home/amb/Desktop/appserver/eclipse-project/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c6ebb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6ebb.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c6ebb.dir/feature_tests.cxx.o  -o cmTC_c6ebb -rdynamic 
+make[1]: Leaving directory '/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

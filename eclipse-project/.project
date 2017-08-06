@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>cppproject@eclipse-project</name>
+	<name>appserver@eclipse-project</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -47,7 +47,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.buildLocation</key>
-					<value>/home/amb/Desktop/cppproject/eclipse-project</value>
+					<value>/home/amb/Desktop/appserver/eclipse-project</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
@@ -83,7 +83,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.build.location</key>
-					<value>/home/amb/Desktop/cppproject/eclipse-project</value>
+					<value>/home/amb/Desktop/appserver/eclipse-project</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
@@ -111,7 +111,7 @@
 		<link>
 			<name>[Source directory]</name>
 			<type>2</type>
-			<location>/home/amb/Desktop/cppproject/cppproject</location>
+			<location>/home/amb/Desktop/appserver/appserver</location>
 		</link>
 		<link>
 			<name>[Subprojects]</name>
@@ -119,9 +119,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Subprojects]/cppproject</name>
+			<name>[Subprojects]/appserver</name>
 			<type>2</type>
-			<location>/home/amb/Desktop/cppproject/cppproject</location>
+			<location>/home/amb/Desktop/appserver/appserver</location>
 		</link>
 		<link>
 			<name>[Targets]</name>
@@ -129,47 +129,82 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme</name>
+			<name>[Targets]/[exe] appserver</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/</name>
+			<name>[Targets]/[exe] appserver/</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/Source Files</name>
+			<name>[Targets]/[exe] appserver/Source Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/Source Files/main.cpp</name>
+			<name>[Targets]/[exe] appserver/Source Files/main.cpp</name>
 			<type>1</type>
-			<location>/home/amb/Desktop/cppproject/cppproject/src/main.cpp</location>
+			<location>/home/amb/Desktop/appserver/appserver/src/main.cpp</location>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/Source Files/Greeter.cpp</name>
+			<name>[Targets]/[exe] appserver/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] appserver/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] appserver/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] appserver/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] configuration</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] configuration/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] configuration/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] configuration/Source Files/Configuration.cpp</name>
 			<type>1</type>
-			<location>/home/amb/Desktop/cppproject/cppproject/src/Greeter.cpp</location>
+			<location>/home/amb/Desktop/appserver/appserver/src/configuration/Configuration.cpp</location>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/Header Files</name>
+			<name>[Targets]/[lib] configuration/Header Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/CMake Rules</name>
+			<name>[Targets]/[lib] configuration/CMake Rules</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/Resources</name>
+			<name>[Targets]/[lib] configuration/Resources</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] runme/Object Files</name>
+			<name>[Targets]/[lib] configuration/Object Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>

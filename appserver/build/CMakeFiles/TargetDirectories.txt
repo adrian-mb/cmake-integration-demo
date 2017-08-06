@@ -1,5 +1,8 @@
-/home/amb/Desktop/cppproject/cppproject/build/CMakeFiles/edit_cache.dir
-/home/amb/Desktop/cppproject/cppproject/build/CMakeFiles/rebuild_cache.dir
-/home/amb/Desktop/cppproject/cppproject/build/src/CMakeFiles/edit_cache.dir
-/home/amb/Desktop/cppproject/cppproject/build/src/CMakeFiles/rebuild_cache.dir
-/home/amb/Desktop/cppproject/cppproject/build/src/CMakeFiles/runme.dir
+/home/amb/Desktop/appserver/appserver/build/CMakeFiles/edit_cache.dir
+/home/amb/Desktop/appserver/appserver/build/CMakeFiles/rebuild_cache.dir
+/home/amb/Desktop/appserver/appserver/build/src/CMakeFiles/rebuild_cache.dir
+/home/amb/Desktop/appserver/appserver/build/src/CMakeFiles/edit_cache.dir
+/home/amb/Desktop/appserver/appserver/build/src/CMakeFiles/appserver.dir
+/home/amb/Desktop/appserver/appserver/build/src/configuration/CMakeFiles/edit_cache.dir
+/home/amb/Desktop/appserver/appserver/build/src/configuration/CMakeFiles/rebuild_cache.dir
+/home/amb/Desktop/appserver/appserver/build/src/configuration/CMakeFiles/configuration.dir

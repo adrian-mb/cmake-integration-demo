@@ -318,30 +318,30 @@
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="[exe] runme" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="[exe] appserver" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments>-j4</buildArguments>
-<buildTarget>runme</buildTarget>
+<buildTarget>appserver</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="[exe] runme/fast" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="[exe] appserver/fast" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments>-j4</buildArguments>
-<buildTarget>runme/fast</buildTarget>
+<buildTarget>appserver/fast</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="Build" path="[Targets]/[exe] runme" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="Build" path="[Targets]/[exe] appserver" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-C "/home/amb/Desktop/cppproject/eclipse-project" -j4</buildArguments>
-<buildTarget>runme</buildTarget>
+<buildArguments>-C "/home/amb/Desktop/appserver/eclipse-project" -j4</buildArguments>
+<buildTarget>appserver</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="Clean" path="[Targets]/[exe] runme" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="Clean" path="[Targets]/[exe] appserver" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/cmake</buildCommand>
-<buildArguments>-E chdir "/home/amb/Desktop/cppproject/eclipse-project/src" "/usr/bin/cmake" -P "CMakeFiles/runme.dir/cmake_clean.cmake"</buildArguments>
+<buildArguments>-E chdir "/home/amb/Desktop/appserver/eclipse-project/src" "/usr/bin/cmake" -P "CMakeFiles/appserver.dir/cmake_clean.cmake"</buildArguments>
 <buildTarget></buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
@@ -354,6 +354,48 @@
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": clean" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] configuration" path="src/configuration" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>configuration</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] configuration/fast" path="src/configuration" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>configuration/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[lib] configuration" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/amb/Desktop/appserver/eclipse-project" -j4</buildArguments>
+<buildTarget>configuration</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[lib] configuration" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/amb/Desktop/appserver/eclipse-project/src/configuration" "/usr/bin/cmake" -P "CMakeFiles/configuration.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/configuration" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j4</buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/configuration" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments>-j4</buildArguments>
 <buildTarget>clean</buildTarget>
@@ -388,6 +430,6 @@
 </cconfiguration>
 </storageModule>
 <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-<project id="cppproject.null.1" name="cppproject"/>
+<project id="appserver.null.1" name="appserver"/>
 </storageModule>
 </cproject>

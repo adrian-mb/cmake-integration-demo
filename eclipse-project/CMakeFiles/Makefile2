@@ -54,63 +54,120 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amb/Desktop/cppproject/cppproject
+CMAKE_SOURCE_DIR = /home/amb/Desktop/appserver/appserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amb/Desktop/cppproject/eclipse-project
+CMAKE_BINARY_DIR = /home/amb/Desktop/appserver/eclipse-project
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/all: src/CMakeFiles/runme.dir/all
+src/all: src/CMakeFiles/appserver.dir/all
+src/all: src/configuration/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/CMakeFiles/runme.dir/clean
+src/clean: src/CMakeFiles/appserver.dir/clean
+src/clean: src/configuration/clean
 
 .PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/preinstall:
+src/preinstall: src/configuration/preinstall
 
 .PHONY : src/preinstall
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/runme.dir
+# Target rules for target src/CMakeFiles/appserver.dir
 
 # All Build rule for target.
-src/CMakeFiles/runme.dir/all:
-	$(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/depend
-	$(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles --progress-num=1,2,3 "Built target runme"
-.PHONY : src/CMakeFiles/runme.dir/all
+src/CMakeFiles/appserver.dir/all: src/configuration/CMakeFiles/configuration.dir/all
+	$(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/depend
+	$(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amb/Desktop/appserver/eclipse-project/CMakeFiles --progress-num=1,2 "Built target appserver"
+.PHONY : src/CMakeFiles/appserver.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/runme.dir/all
+all: src/CMakeFiles/appserver.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/runme.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/runme.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles 0
-.PHONY : src/CMakeFiles/runme.dir/rule
+src/CMakeFiles/appserver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/eclipse-project/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/appserver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/eclipse-project/CMakeFiles 0
+.PHONY : src/CMakeFiles/appserver.dir/rule
 
 # Convenience name for target.
-runme: src/CMakeFiles/runme.dir/rule
+appserver: src/CMakeFiles/appserver.dir/rule
 
-.PHONY : runme
-
-# clean rule for target.
-src/CMakeFiles/runme.dir/clean:
-	$(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/clean
-.PHONY : src/CMakeFiles/runme.dir/clean
+.PHONY : appserver
 
 # clean rule for target.
-clean: src/CMakeFiles/runme.dir/clean
+src/CMakeFiles/appserver.dir/clean:
+	$(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/clean
+.PHONY : src/CMakeFiles/appserver.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/appserver.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/configuration
+
+# Convenience name for "all" pass in the directory.
+src/configuration/all: src/configuration/CMakeFiles/configuration.dir/all
+
+.PHONY : src/configuration/all
+
+# Convenience name for "clean" pass in the directory.
+src/configuration/clean: src/configuration/CMakeFiles/configuration.dir/clean
+
+.PHONY : src/configuration/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/configuration/preinstall:
+
+.PHONY : src/configuration/preinstall
+
+#=============================================================================
+# Target rules for target src/configuration/CMakeFiles/configuration.dir
+
+# All Build rule for target.
+src/configuration/CMakeFiles/configuration.dir/all:
+	$(MAKE) -f src/configuration/CMakeFiles/configuration.dir/build.make src/configuration/CMakeFiles/configuration.dir/depend
+	$(MAKE) -f src/configuration/CMakeFiles/configuration.dir/build.make src/configuration/CMakeFiles/configuration.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/amb/Desktop/appserver/eclipse-project/CMakeFiles --progress-num=3,4 "Built target configuration"
+.PHONY : src/configuration/CMakeFiles/configuration.dir/all
+
+# Include target in all.
+all: src/configuration/CMakeFiles/configuration.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/configuration/CMakeFiles/configuration.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/eclipse-project/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/configuration/CMakeFiles/configuration.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/eclipse-project/CMakeFiles 0
+.PHONY : src/configuration/CMakeFiles/configuration.dir/rule
+
+# Convenience name for target.
+configuration: src/configuration/CMakeFiles/configuration.dir/rule
+
+.PHONY : configuration
+
+# clean rule for target.
+src/configuration/CMakeFiles/configuration.dir/clean:
+	$(MAKE) -f src/configuration/CMakeFiles/configuration.dir/build.make src/configuration/CMakeFiles/configuration.dir/clean
+.PHONY : src/configuration/CMakeFiles/configuration.dir/clean
+
+# clean rule for target.
+clean: src/configuration/CMakeFiles/configuration.dir/clean
 
 .PHONY : clean
 

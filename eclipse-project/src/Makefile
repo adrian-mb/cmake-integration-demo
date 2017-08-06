@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amb/Desktop/cppproject/cppproject
+CMAKE_SOURCE_DIR = /home/amb/Desktop/appserver/appserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amb/Desktop/cppproject/eclipse-project
+CMAKE_BINARY_DIR = /home/amb/Desktop/appserver/eclipse-project
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles /home/amb/Desktop/cppproject/eclipse-project/src/CMakeFiles/progress.marks
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/cppproject/eclipse-project/CMakeFiles 0
+	cd /home/amb/Desktop/appserver/eclipse-project && $(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/eclipse-project/CMakeFiles /home/amb/Desktop/appserver/eclipse-project/src/CMakeFiles/progress.marks
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/eclipse-project/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,60 +97,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/amb/Desktop/appserver/eclipse-project && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/runme.dir/rule:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/runme.dir/rule
-.PHONY : src/CMakeFiles/runme.dir/rule
+src/CMakeFiles/appserver.dir/rule:
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/appserver.dir/rule
+.PHONY : src/CMakeFiles/appserver.dir/rule
 
 # Convenience name for target.
-runme: src/CMakeFiles/runme.dir/rule
+appserver: src/CMakeFiles/appserver.dir/rule
 
-.PHONY : runme
+.PHONY : appserver
 
 # fast build rule for target.
-runme/fast:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/build
-.PHONY : runme/fast
-
-Greeter.o: Greeter.cpp.o
-
-.PHONY : Greeter.o
-
-# target to build an object file
-Greeter.cpp.o:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/Greeter.cpp.o
-.PHONY : Greeter.cpp.o
-
-Greeter.i: Greeter.cpp.i
-
-.PHONY : Greeter.i
-
-# target to preprocess a source file
-Greeter.cpp.i:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/Greeter.cpp.i
-.PHONY : Greeter.cpp.i
-
-Greeter.s: Greeter.cpp.s
-
-.PHONY : Greeter.s
-
-# target to generate assembly for a file
-Greeter.cpp.s:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/Greeter.cpp.s
-.PHONY : Greeter.cpp.s
+appserver/fast:
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/build
+.PHONY : appserver/fast
 
 main.o: main.cpp.o
 
@@ -158,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/main.cpp.o
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/main.cpp.i
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -176,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/main.cpp.s
+	cd /home/amb/Desktop/appserver/eclipse-project && $(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,12 +158,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... runme"
-	@echo "... Greeter.o"
-	@echo "... Greeter.i"
-	@echo "... Greeter.s"
+	@echo "... edit_cache"
+	@echo "... appserver"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -205,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/amb/Desktop/cppproject/eclipse-project && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/amb/Desktop/appserver/eclipse-project && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

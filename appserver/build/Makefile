@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amb/Desktop/cppproject/cppproject
+CMAKE_SOURCE_DIR = /home/amb/Desktop/appserver/appserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amb/Desktop/cppproject/cppproject/build
+CMAKE_BINARY_DIR = /home/amb/Desktop/appserver/appserver/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/cppproject/cppproject/build/CMakeFiles /home/amb/Desktop/cppproject/cppproject/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/appserver/build/CMakeFiles /home/amb/Desktop/appserver/appserver/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/cppproject/cppproject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amb/Desktop/appserver/appserver/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named runme
+# Target rules for targets named appserver
 
 # Build rule for target.
-runme: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 runme
-.PHONY : runme
+appserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 appserver
+.PHONY : appserver
 
 # fast build rule for target.
-runme/fast:
-	$(MAKE) -f src/CMakeFiles/runme.dir/build.make src/CMakeFiles/runme.dir/build
-.PHONY : runme/fast
+appserver/fast:
+	$(MAKE) -f src/CMakeFiles/appserver.dir/build.make src/CMakeFiles/appserver.dir/build
+.PHONY : appserver/fast
+
+#=============================================================================
+# Target rules for targets named configuration
+
+# Build rule for target.
+configuration: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 configuration
+.PHONY : configuration
+
+# fast build rule for target.
+configuration/fast:
+	$(MAKE) -f src/configuration/CMakeFiles/configuration.dir/build.make src/configuration/CMakeFiles/configuration.dir/build
+.PHONY : configuration/fast
 
 # Help Target
 help:
@@ -131,7 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... runme"
+	@echo "... appserver"
+	@echo "... configuration"
 .PHONY : help
 
 

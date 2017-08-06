@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amb/Desktop/appserver/appserver/src/configuration/Configuration.cpp
+inih/INIReader.h
+/home/amb/Desktop/appserver/appserver/src/configuration/inih/INIReader.h
+Configuration.h
+/home/amb/Desktop/appserver/appserver/src/configuration/Configuration.h
+
+/home/amb/Desktop/appserver/appserver/src/configuration/Configuration.h
+
+/home/amb/Desktop/appserver/appserver/src/configuration/inih/INIReader.h
+stdio.h
+-
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+stdlib.h
+-
+map
+-
+set
+-
+string
+-
+algorithm
+-
+cctype
+-
+cstdlib
+-
+

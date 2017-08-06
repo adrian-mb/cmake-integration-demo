@@ -1,8 +1,0 @@
-/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/edit_cache.dir
-/home/amb/Desktop/appserver/eclipse-project/CMakeFiles/rebuild_cache.dir
-/home/amb/Desktop/appserver/eclipse-project/src/CMakeFiles/rebuild_cache.dir
-/home/amb/Desktop/appserver/eclipse-project/src/CMakeFiles/edit_cache.dir
-/home/amb/Desktop/appserver/eclipse-project/src/CMakeFiles/appserver.dir
-/home/amb/Desktop/appserver/eclipse-project/src/configuration/CMakeFiles/edit_cache.dir
-/home/amb/Desktop/appserver/eclipse-project/src/configuration/CMakeFiles/rebuild_cache.dir
-/home/amb/Desktop/appserver/eclipse-project/src/configuration/CMakeFiles/configuration.dir

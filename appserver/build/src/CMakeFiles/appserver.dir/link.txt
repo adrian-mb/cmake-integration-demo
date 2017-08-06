@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++14 -Wall -Wextra -Werror -pedantic   CMakeFiles/appserver.dir/main.cpp.o  -o ../../bin/appserver -rdynamic configuration/libconfiguration.a 

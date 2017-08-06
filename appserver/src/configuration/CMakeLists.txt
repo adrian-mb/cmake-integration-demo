@@ -1,1 +1,1 @@
-add_library(configuration STATIC Configuration.cpp)
+add_library(configuration STATIC Properties.cpp)

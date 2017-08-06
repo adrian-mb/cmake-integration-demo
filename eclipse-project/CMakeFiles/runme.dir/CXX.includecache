@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amb/Desktop/cppproject/cppproject/src/Greeter.cpp
+Greeter.h
+/home/amb/Desktop/cppproject/cppproject/src/Greeter.h
+string
+-
+iostream
+-
+
+/home/amb/Desktop/cppproject/cppproject/src/Greeter.h
+string
+-
+
+/home/amb/Desktop/cppproject/cppproject/src/Test.h
+
+/home/amb/Desktop/cppproject/cppproject/src/main.cpp
+string
+-
+Greeter.h
+/home/amb/Desktop/cppproject/cppproject/src/Greeter.h
+Test.h
+/home/amb/Desktop/cppproject/cppproject/src/Test.h
+

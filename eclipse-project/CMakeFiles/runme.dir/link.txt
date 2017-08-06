@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -Wall -Wextra -Werror -pedantic   CMakeFiles/runme.dir/src/main.cpp.o CMakeFiles/runme.dir/src/Greeter.cpp.o  -o /home/amb/Desktop/cppproject/cppproject/bin/runme -rdynamic 

@@ -1,0 +1,5 @@
+/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/edit_cache.dir
+/home/amb/Desktop/cppproject/eclipse-project/CMakeFiles/rebuild_cache.dir
+/home/amb/Desktop/cppproject/eclipse-project/src/CMakeFiles/edit_cache.dir
+/home/amb/Desktop/cppproject/eclipse-project/src/CMakeFiles/rebuild_cache.dir
+/home/amb/Desktop/cppproject/eclipse-project/src/CMakeFiles/runme.dir

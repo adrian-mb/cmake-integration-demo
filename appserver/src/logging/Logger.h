@@ -2,7 +2,7 @@
 
 namespace logging {
 
-class Logger final {
+class Logger {
 private:
     const std::string tag;
 

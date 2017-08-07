@@ -1,5 +1,5 @@
 # cmake-integration-demo
-Basic skeleton of a C++ project integrated using CMake and GitHub submodules.
+Basic skeleton of a C++ project integrated using CMake and GitHub submodules, Docker enabled for easier deployment.
 
 Run ./build.sh in the appserver directory to build project and submodules.
 Remember to initialize submodules with `git submodule init` if not done on clone by default.
